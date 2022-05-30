@@ -23,32 +23,30 @@ const Header = () => (
     </Div1>
     <Div2>
       <li>
-        <link href='#projects'>
+        <Link href='#projects'>
           <NavLink>Projects</NavLink>
-        </link>
+        </Link>
       </li>
       <li>
-        <link href='#tech'>
+        <Link href='#tech'>
           <NavLink>Technologies</NavLink>
-        </link>
+        </Link>
       </li>
       <li>
-        <link href='#about'>
+        <Link href='#about'>
           <NavLink>About</NavLink>
-        </link>
+        </Link>
       </li>
     </Div2>
     <Div3>
-      <SocialIcons href='https://github.com'>
+      <SocialIcons href='https://github.com/Hayor4real?tab=repositories'>
         <AiFillGithub size='3rem' />
       </SocialIcons>
-      <SocialIcons href='https://linkedin.com'>
+      <SocialIcons href='https://www.linkedin.com/in/akindele-ayorinde-773849176/'>
         <AiFillLinkedin size='3rem' />
-      </SocialIcons>
-      <SocialIcons href='https://github.com'>
-        <AiFillInstagram size='3rem' />
       </SocialIcons>
     </Div3>
   </Container>
 );
+
 export default Header;
