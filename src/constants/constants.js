@@ -1,46 +1,55 @@
 export const projects = [
   {
-    title: 'MERN Memories',
-    description: "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
-      image: '/images/1.png',
-      tags: ['Mongo', 'Express', 'React', 'Node'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    title: 'Nigeria food Menu Project',
+    description:
+      'This is a Nigerian food menu project. Once the page loads we will use JavaScript to populate our page and also we will set up some filtering options. Displaying objects using JavaScript',
+    image: '/images/image food.jpg',
+    tags: ['CSS', 'HTML', 'JavaScript'],
+    source: 'https://github.com/Hayor4real/Nigerian-food-menu-project',
+    visit: 'https://hayor4real.github.io/Nigerian-food-menu-project/',
     id: 0,
   },
   {
     title: 'E-Commerce',
-    description:"While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
+    description:
+      'Created a modern responsive e-commerce website using html css and javascript which is professional and also responsive websites and it also applies the fundamentals of web design with the use of modern css including flexbox and css grid for layout mordern css techniques to create a stunning designs and effects how to use common components and layout patterns for professional web design and development advanced responsive design using media queries',
     image: '/images/2.png',
-    tags: ['React', 'JavaScript'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    tags: ['CSS', 'HTML', 'JavaScript'],
+    source: 'https://hayor4real.github.io/Ecommerce-website/',
+    visit: 'https://github.com/Hayor4real/Ecommerce-website',
     id: 1,
   },
   {
-    title: 'WebRTC App',
-    description: "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
-      image: '/images/3.jpg',
-      tags: ['React', 'WebRTC'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    title: 'A compilation of all my projects',
+    description:
+      'This is a compilation of all my project in a portfolio website just to show my good use of using html/css and javascript',
+    image: '/images/My work.jpg',
+    tags: ['CSS', 'HTML', 'JavaScript'],
+    source: 'https://hayor4real.github.io/Akindele-Ayorinde-Portfolio-/',
+    visit: 'https://github.com/Hayor4real/Akindele-Ayorinde-Portfolio-',
     id: 2,
   },
   {
-    title: 'Unichat',
-    description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
-    image: '/images/4.jpg',
-    tags: ['React', 'ChatEngine', 'Firebase'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    title: 'A role Playing Game',
+    description:
+      'At any given time there are two characters on the screen . Each time the attach button is clicked the character roll there dice and attach score is deducted from there opponent health . using Html/Css and JavaScripts',
+    image: '/images/role game.jpg',
+    tags: ['CSS', 'HTML', 'JavaScript'],
+    source: 'https://hayor4real.github.io/Role-Playing-Game/',
+    visit: 'https://github.com/Hayor4real/Role-Playing-Game',
     id: 3,
   },
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Founded JavaScript Mastery', },
-  { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'Started my own platform', },
+  { year: 2019, text: 'Worked as a junior developer' },
+  { year: 2020, text: 'Worked as a frontend developer' },
+  {
+    year: 2022,
+    text: 'Student at Redi digital school working with Javascript',
+  },
+  {
+    year: 2022,
+    text: 'Appreticeship at brainnest on frontend development training',
+  },
 ];
