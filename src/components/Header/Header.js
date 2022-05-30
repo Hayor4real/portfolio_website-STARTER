@@ -21,6 +21,23 @@ const Header = () => (
         </a>
       </Link>
     </Div1>
+    <Div2>
+      <li>
+        <link href='#projects'>
+          <NavLink>Projects</NavLink>
+        </link>
+      </li>
+      <li>
+        <link href='#tech'>
+          <NavLink>Technologies</NavLink>
+        </link>
+      </li>
+      <li>
+        <link href='#about'>
+          <NavLink>About</NavLink>
+        </link>
+      </li>
+    </Div2>
   </Container>
 );
 export default Header;
